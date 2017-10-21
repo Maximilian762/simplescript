@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{45d41acc-2c3c-43d2-bc10-02aa73ffc7c7}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AddLineToFileFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)API_Collection.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Assignment.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_BinaryExpr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Class.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Expr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_For.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Function.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_FunctionCalling.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ASt_If.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_MemberAccess.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Number.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Return.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Root.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_StringLiteral.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Variable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)common.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ConsolePrintFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CopyFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)DeleteVarFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GetKeysFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GetSizeFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)HasVarFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)IFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)IMsgHandler.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)LayeredVarContainer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MethodContainer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)OperatorMgr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReadFileFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReadLineFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)example.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SplitToWordsFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SSInterpreter.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)StringConcat.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Table.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TableTemplate.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)TestSumFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ToFloatFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ToIntFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Token.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ToStringFunctor.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Variable.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)VariableContainer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AddLineToFileFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)API_Collection.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Assignment.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_BinaryExpr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Class.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Expr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_For.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Function.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_FunctionCalling.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ASt_If.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_MemberAccess.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Number.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Return.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Root.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_StringLiteral.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Variable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)common.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ConsolePrintFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CopyFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)DeleteVarFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GetKeysFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GetSizeFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)HasVarFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)IMsgHandler.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)LayeredVarContainer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MethodContainer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)OperatorMgr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReadFileFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReadLineFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SplitToWordsFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SSInterpreter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)stdafx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)StringConcat.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Table.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TableTemplate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)targetver.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)TestSumFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ToFloatFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ToIntFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Token.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ToStringFunctor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Variable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)VariableContainer.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AddLineToFileFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ConsolePrintFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)DeleteVarFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GetKeysFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)example.cpp">
+      <Filter>Documentation</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Assignment.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_BinaryExpr.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Class.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Expr.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_For.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ASt_If.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_FunctionCalling.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Function.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_MemberAccess.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Number.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Return.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Root.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_Variable.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)AST_StringLiteral.cpp">
+      <Filter>Interpreter\AST</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ToStringFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ToIntFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ToFloatFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TestSumFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SplitToWordsFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReadLineFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReadFileFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GetSizeFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)CopyFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)HasVarFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IFunctor.cpp">
+      <Filter>FunctorsAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)VariableContainer.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Variable.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Token.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TableTemplate.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Table.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)StringConcat.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)SSInterpreter.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)OperatorMgr.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)MethodContainer.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)LayeredVarContainer.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IMsgHandler.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)API_Collection.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AddLineToFileFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ConsolePrintFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DeleteVarFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GetKeysFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Assignment.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_BinaryExpr.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Class.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Expr.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_For.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ASt_If.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_FunctionCalling.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Function.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_MemberAccess.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Number.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Return.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Root.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_Variable.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)AST_StringLiteral.h">
+      <Filter>Interpreter\AST</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ToStringFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ToIntFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ToFloatFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TestSumFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SplitToWordsFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReadLineFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReadFileFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GetSizeFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)CopyFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)HasVarFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IFunctor.h">
+      <Filter>FunctorsAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)VariableContainer.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Variable.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Token.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TableTemplate.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Table.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)StringConcat.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SSInterpreter.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)OperatorMgr.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)MethodContainer.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)LayeredVarContainer.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IMsgHandler.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)API_Collection.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)targetver.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)stdafx.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="FunctorsAPI">
+      <UniqueIdentifier>{18bb61b9-67e5-480a-ae73-aed861ee5235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpreter">
+      <UniqueIdentifier>{39e8ee9b-7044-4db1-b46c-6959142c730d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{45e84113-a849-4f95-a8cb-1e692c0b2169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpreter\AST">
+      <UniqueIdentifier>{f9b61b0d-144b-491c-8ecf-2e9776170001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{5095ee5e-fcc8-42cb-8843-e57fb3368db3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

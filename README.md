@@ -42,4 +42,4 @@ For MSVS:
 4. Turn on checkbox for 'SS_shared'
 5. Include 'SSInterpreter.h' header in your source code
 
-Alternatively, just download SS_fullsrc and reference 'SSInterpreter.h' header
+Alternatively, just download SS_fullsrc, include contents in your project and reference 'SSInterpreter.h' header

@@ -106,7 +106,7 @@ table api_example_table
 	void Execute()
 	{
 		ss.print("Calling exposed method:\n");
-		ss.print("100 + 100 = ", this.cppsum(2, 2));
+		ss.print("1 + 2 + 3 = ", this.cppsum(1, 2, 3));
 	}
 }
 ```

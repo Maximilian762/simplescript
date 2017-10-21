@@ -97,7 +97,7 @@ table arrays_example
 }
 ```
 # Exposing C++ code to script
-Providing interface to C++ code is done via creating C++ functor class and using it as method for one of tables defined in script.
+Providing interface to C++ code is done via creating C++ functor class and using it as method for one of tables defined in script. It is possible to add method to all tables by passing ```*``` as table name in AddMethod()
 
 ##### apiexample.ss
 ``` c++
@@ -157,4 +157,24 @@ int main()
 
 	return 0;
 }
+```
+
+# Standard library methods
+Some standard methods are functors which are added as methods to table named 'ss'. This table is accesible from any place in the simplescript code. Other methods are added to all tables. List of currently existing standard methods:
+``` c++
+ss.print(<args>); //prints all arguments sequentially
+ss.readline(); //reads line from stdin and returns it
+ss.readfile(<filename>); //reads filename and returns as table array (every line as new element)
+ss.appendtofile(<filename>, <string>); //appends line to file
+ss.copy(<object>); //returns copy of object passed as argument
+ss.split(<string>); //splits line to words and returns as array
+ss.concat(<string args>); //concatenates all args and returns as one string
+ss.tostring(<object>); //converts object to string
+ss.toint(<object>); //converts object to integer
+ss.tofloat(<object>); //converts object to float
+
+*.hasvars(<varnames>); //takes any amount of variable names as args, returns how many of them are members of table
+*.size(); //returns number of member variables
+*.delete(<varnames>); //deletes member variables
+*.getvars(); //returns all member variables names as array
 ```

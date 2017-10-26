@@ -1,5 +1,5 @@
 # Simplescript
-Is a weakly-typed object-oriented scripting language designed to be easily integrated with C++.
+Is a weakly-typed object-oriented scripting language designed to be easily integrated with C++. It has C-style syntax and flexible object model inspired by Lua.
 A quick example:
 
 ##### fib.ss
@@ -25,8 +25,8 @@ int main()
 {
 	SSInterpreter fibss("fib.ss");
   
-	auto table = fibss.InstantiateTable("fibsolver");
-	auto result = table->CallMethod("get_fib", 10);
+	Table* table = fibss.InstantiateTable("fibsolver");
+	Variable result = table->CallMethod("get_fib", 10);
   
 	std::cout << result.GetIntRef(); //will print 10th fibonacci number, 55
 

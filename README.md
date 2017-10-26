@@ -108,6 +108,7 @@ table api_example_table
 		ss.print("Calling exposed method:\n");
 		ss.print("1 + 2 + 3 = ", this.cppsum(1, 2, 3));
 	}
+	//in .cpp code below we will add 'cppsum' method to this table
 }
 ```
 ##### main.cpp
@@ -133,11 +134,8 @@ public:
 
 		for (auto &arg : args)
 		{
-			if (!arg) continue;
-
-			result += arg->GetIntRef();
+			if (arg) result += arg->GetIntRef();
 		}
-
 		return VarPtr(new Variable(result));
 	}
 };
